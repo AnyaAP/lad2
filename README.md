@@ -26,7 +26,7 @@ Part |
     git push -u origin main
 ```
 
-3) 
+3) Создаём файл main.cpp
 ```
     cat > "main.cpp" << EOF
       #include <iostream>
@@ -38,16 +38,16 @@ Part |
       EOF
 ```
 
-4)
+4) Добавляем созданный файл в репозиторий
 ```
       git add "main.cpp"
 ```
-5)
+5) Коммитим файл с осознанным комментарием
 ```
     git commit -m "MyFirstCommit"
 ```
 
-6)    
+6) 
 ```
     edit "main.cpp"
     #include <iostream>
