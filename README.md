@@ -130,11 +130,11 @@ Part ||
 ```
 -----------------------------------------------------------------------------------------------------------
 Part|||
-1) 
+1) Создаём новую локальную ветку
 ```    
     git checkout -b patch2
 ```
-2) 
+2) Изменяем стиль с помощью утилиты clang-format
 ```    
     clang-format -i -style=Mozilla "main.cpp"
 ```
@@ -152,7 +152,7 @@ Part|||
        std::cout << "Hello world from " << name << std::endl;
     }
 ```
-6) 
+6) Убеждаемся в появлении конфликтов, устраняем их
 ```    
     git pull origin main
     git rebase main
@@ -160,7 +160,7 @@ Part|||
     git commit -a -m "Update Hello world.cpp"
     git rebase --continue
 ```
-7) 
+7) Делаем force push в ветку
 ```    
     git push -f origin patch2
 ```
