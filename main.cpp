@@ -1,8 +1,6 @@
    #include <iostream>
-   #include <string>
-
-   int main(){
-    string name; \\ name
-    std::cin >> name; \\ input
-    std::cout << "Hello world from " << name << std::endl;
-   }
+    int main(){
+       string name; \\ .....
+       std::cin >> name; \\ Ввод данных
+       std::cout << "Hello world from " << name << std::endl;
+    }
