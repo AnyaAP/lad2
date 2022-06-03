@@ -2,7 +2,7 @@
    #include <string>
 
    int main(){
-    std::string name;
-    std::cin >> name;
+    string name; \\ name
+    std::cin >> name; \\ input
     std::cout << "Hello world from " << name << std::endl;
    }
